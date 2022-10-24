@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shorcut icon" href="img/favicon.png">
+    <title>G&C Desarrollo Web</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>< GC ></h1>
+                        <nav id="nav" class="">
+                                <ul id="links">
+                                    <li>
+                                        <a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#sobrenosotros" onclick="seleccionar(this)">SOBRE NOSOTROS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                                    </li>
+                                </ul>
+                        </nav>
+
+            <!-- Iconos del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+            <!-- Iconos de redes sociales -->
+                        <div class="redes">
+                            <a href="mailto:ti.giulianna.tangara@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/giulianna-tangara-becerra-3b5315237/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://api.whatsapp.com/send/?phone=56998828526&text=Su+mensaje+ser%C3%A1+respondido+a+la+brevedad+&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <!--<a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a> -->
+                            <a href="https://github.com/Giulianna-Tangara" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Somos <span>Giulianna & Christian</span>, Desarrolladores Web</h2>
+                <p class="descripcion">Técnicos de Nivel Superior en Informática y Aplicaciónes Tecnológicas.</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION SOBRE NOSOTROS -->
+    <section id="sobrenosotros">
+        <div class="contenedor-foto">
+            <img src="img/informatica.jpg" alt="">
+        </div>
+        <div class="sobrenosotros">
+            <p class="titulo-seccion">Sobre Nosotros</p>
+            <h2>Hola, somos <span>Giulianna & Christian</span></h2>
+            <h3>Desarrolladores Web</h3>
+            <p>Somos un equipo que saco la carrera de técnico nivel superior en informática y aplicaciones tecnológicas los cuales quieren ser ingenieros proximamente el cual te ofrece seguridad y confianza para tus sitios web.</p>
+            <p>Nuestra misión es lograr que a nuestro cliente le guste nuestro trabajo, entregando toda nuestra pasión y conocimiento de lo que nos gusta hacer.</p>
+            <a href="docs/Curriculum Vitae - Giulianna Tangara-protegido.pdf" target="_blank">Descargar CV Giulianna</a>
+            <br>
+            <a href="docs/CURRICULUM VITAE Christian Ignacio Aguayo Peña-protegido.pdf" target="_blank">Descargar CV Christian</a>
+        </div>
+    </section>
+    
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">NUESTROS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr class="servicios-line">
+                <ul class="servicios-tag">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>El diseño web implica trabajo relacionado con el layout y diseño de páginas online, así como la producción de contenido, aunque generalmente se aplica a la creación de sitios web. En este caso, los diseñadores web crean las páginas utilizando lenguajes de marcado como HTML o XML.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                <h4>FrameWorks</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bootstrap 5</li>
+                    <li>JQuery</li>
+                    <li>Datatables</li>
+                </ul>
+                <p>Un framework es un esquema o marco de trabajo que ofrece una estructura base para elaborar un proyecto con objetivos específicos, una especie de plantilla que sirve como punto de partida para la organización y desarrollo de software.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-laptop"></i></span>
+                <h4>Reparación de Laptops</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Hardware</li>
+                    <li>Software</li>
+                    <li>Mantenimiento</li>
+                </ul>
+                <p>Identificación, solución de problemas y resolución de problemas y problemas en una computadora defectuosa.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-server"></i></span>
+                <h4>Administración de Base de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>phpMyAdmin</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                </ul>
+                <p>Gestión y mantenimiento para las bases de datos informatizadas. Asegurando de que estas sean seguras y estén actualizadas. Reorganizamiento para hacerlas más rápidas o más fáciles de usar.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-angular"></i></span>
+                <h4>Aplicaciones S.P.A.</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Angular</li>
+                    <li>Express</li>
+                    <li>NodeJs</li>
+                </ul>
+                <p>Angular es un framework Javascript potente, muy adecuado para el desarrollo de aplicaciones frontend modernas, de complejidad media o elevada. El tipo de aplicación Javascript que se desarrolla con Angular es del estilo SPA (Single Page Application) o también las denominadas PWA (Progressive Web App).
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>Lenguajes de Programación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>TypeScript</li>
+                    <li>PHP</li>
+                    <li>Python</li>
+                </ul>
+                <p>Un lenguaje de programación es un lenguaje formal (o artificial, es decir, un lenguaje con reglas gramaticales bien definidas) que le proporciona a una persona, en este caso el programador, la capacidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático, de manera que se puedan obtener diversas clases de datos o ejecutar determinadas tareas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3 class="titulo-habilidades">NUESTRAS HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML5 & CSS3</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Angular</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="angular" class="barra-progreso4"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Reparación de laptops</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="reparacion" class="barra-progreso5"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">NUESTROS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyectopractica.png" alt="">
+                <div class="info">
+                    <h4>Desarrollo de Software Práctica Profesional</h4>
+                    <p>Sistema Gestión de Inventario</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/alurabarberia.png" alt="">
+                <div class="info">
+                    <h4>Página Web Peluqueria</h4>
+                    <p>Barbería Alura</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/technews.png" alt="">
+                <div class="info">
+                    <h4>Página Web de Noticias</h4>
+                    <p>TechNews</p>
+                </div>
+            </div>  
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/medicinadegaia.png" alt="">
+                <div class="info">
+                    <h4>Página Web Lista Médica</h4>
+                    <p>Medicina de Gaia</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/administradorcomercial.png" alt="">
+                <div class="info">
+                    <h4>Proyecto de Carrera</h4>
+                    <p>Administrador Comercial</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/inventario.png" alt="">
+                <div class="info">
+                    <h4>Registro de Productos</h4>
+                    <p>Inventario</p>
+                </div>
+            </div>  
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/barberiaproductos.png" alt="">
+                <div class="info">
+                    <h4>Página Web Peluqueria</h4>
+                    <p>Barbería Alura</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/portafolio.png" alt="">
+                <div class="info">
+                    <h4>Portafolio Profesional</h4>
+                    <p>Giuli & Christian</p>
+                </div>
+            </div>  
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/barberiaformulario.png" alt="">
+                <div class="info">
+                    <h4>Página Web Peluqueria</h4>
+                    <p>Barbería Alura</p>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/758f915f165b09c493e149da9e75f83c" method="post">
+                <div class="fila mitad">
+                    <input type="text" name="name" id="name" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" name="mail" id="mail" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" name="tema" id="tema" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Tu Mensaje ..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+                <input type="hidden" name="_next" value="https://cristian.edgardocayo.cl/">
+                
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>&copy G&C Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="mailto:ti.christian.aguayo@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/christian-aguayo-pe%C3%B1a-761694251/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=56937460954&text=Su+mensaje+ser%C3%A1+respondido+a+la+brevedad+&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <!--<a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a>-->
+            <a href="https://github.com/xStaylok" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
